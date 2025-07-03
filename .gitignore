@@ -1,0 +1,14 @@
+# Node
+node_modules
+.env
+
+# Java/Maven
+target/
+*.iml
+*.class
+*.log
+*.jar
+
+# OS
+.DS_Store
+Thumbs.db

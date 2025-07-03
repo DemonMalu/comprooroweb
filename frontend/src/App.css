@@ -1,0 +1,263 @@
+body {
+  background-color: #242424;
+  color: whitesmoke;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  color: goldenrod;
+}
+
+.home-cliente-container strong {
+  color: goldenrod;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+.home-admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-admin-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.box {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+  flex: 1;
+  max-width: 100%;
+}
+
+.box h2{
+  color: goldenrod;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer button {
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 1px solid rgba(0, 0, 0, 0.719);
+  color: white;
+  padding: 13px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.footer button:hover {
+  border: 1px solid #0056b3;
+}
+
+/* Responsività per schermi più piccoli */
+@media (max-width: 768px) {
+  .admin-content-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .box {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.84);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-content a {
+  color: silver;
+}
+
+.storico-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.storico-container th, .storico-container td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white;
+}
+
+.storico-container th {
+  background-color: transparent;
+}
+
+.storico-container tr:hover {
+  background-color: transparent;
+}
+
+
+.results table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results th, .results td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white;
+}
+
+.results th {
+  background-color: transparent;
+}
+
+.results tr:hover {
+  background-color: transparent;
+}
+
+.report-container {
+  margin: 20px;
+}
+
+.report-title {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container > * {
+  margin-bottom: 20px; /* Aggiunge uno spazio tra i componenti */
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    align-items: flex-start; /* Allinea gli elementi a sinistra su dispositivi più piccoli */
+  }
+}
+
+.client-register-container label {
+  float: left;
+  font-size: 1.2rem;
+}
+
+.client-register-container input {
+  float: right;
+  width: 10.6rem;
+  font-size: 1.2rem;
+}
+
+.client-register-container select {
+  float: right;
+  width: 11rem;
+  font-size: 1.2rem;
+}
+
+.movimento-register-container label {
+  float: left;
+  font-size: 1.2rem;
+}
+
+.movimento-register-container input {
+  float: right;
+  width: 10.6rem;
+  font-size: 1.2rem;
+}
+
+.movimento-register-container select {
+  float: right;
+  width: 11rem;
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1.2rem;
+  cursor: text;
+}
+
+input {
+  font-size: 1.2rem;
+  width: 10.6rem;
+  cursor: text;
+}
+
+select {
+  font-size: 1.2rem;
+  width: 11rem;
+}
+
+.file-upload-button {
+  background-color: rgba(25, 25, 25, 0.719);
+  border: 1px solid rgba(25, 25, 25, 0.719);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-upload-button:hover {
+  border: 1px solid #37597d;
+}
+
+.input-error {
+  border: 2px solid red;
+  background-color: rgba(134, 0, 0, 0.183);
+  outline: none;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  float: right;
+}
