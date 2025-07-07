@@ -19,10 +19,8 @@ import com.comprooro.backend.repo.ArticoloRepository;
 import com.comprooro.backend.repo.MovimentoRepository;
 
 import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class ArticoloServiceImpl implements ArticoloService {
 
     private static final Logger logger = LoggerFactory.getLogger(ArticoloServiceImpl.class);

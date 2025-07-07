@@ -2,9 +2,7 @@ package com.comprooro.backend.dto;
 
 import java.math.BigDecimal;
 
-import lombok.Data;
 
-@Data
 public class ArticoloResponseDTO {
 
 	private Long idArticolo;

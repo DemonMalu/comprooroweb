@@ -17,11 +17,9 @@ import com.comprooro.backend.service.ArticoloService;
 import com.comprooro.backend.service.ReportService;
 
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api")
-@RequiredArgsConstructor
 public class ArticoloController {
 
     private static final Logger logger = LoggerFactory.getLogger(ArticoloController.class);

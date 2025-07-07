@@ -20,10 +20,8 @@ import com.comprooro.backend.repo.MovimentoRepository;
 import com.comprooro.backend.repo.UtenteRepository;
 
 import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class MovimentoServiceImpl implements MovimentoService {
 
     private static final Logger logger = LoggerFactory.getLogger(MovimentoServiceImpl.class);

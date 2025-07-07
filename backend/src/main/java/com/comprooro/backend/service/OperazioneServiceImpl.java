@@ -18,10 +18,8 @@ import com.comprooro.backend.repo.OperazioneRepository;
 import com.comprooro.backend.repo.UtenteRepository;
 
 import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class OperazioneServiceImpl implements OperazioneService {
 
     private static final Logger logger = LoggerFactory.getLogger(OperazioneServiceImpl.class);

@@ -6,9 +6,7 @@ import java.util.List;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import lombok.Data;
 
-@Data
 public class MovimentoRequestDTO {
 
 	@NotNull(message = "La data è obbligatoria (formato: dd-MM-yyyy).")
