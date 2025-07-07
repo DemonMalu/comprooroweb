@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: comprooroweb
+    env: docker
+    plan: free
+    region: frankfurt
