@@ -5,7 +5,7 @@ FROM maven:3.9.5-eclipse-temurin-17
 COPY . .
 
 # Entra nella cartella del backend
-WORKDIR /app/backend
+WORKDIR /backend
 
 # Compila l'app
 RUN mvn clean package -DskipTests
