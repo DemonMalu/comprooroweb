@@ -1,9 +1,6 @@
 # Usa un'immagine con Java e Maven preinstallati
 FROM maven:3.9.5-eclipse-temurin-17
 
-# Imposta la cartella di lavoro
-WORKDIR /app
-
 # Copia tutto il progetto
 COPY . .
 
